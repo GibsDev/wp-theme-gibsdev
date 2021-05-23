@@ -1,0 +1,27 @@
+{
+  "name": "wp-theme-gibsdev",
+  "version": "1.0.0",
+  "description": "Webpack tools for bootstrap sass",
+  "scripts": {
+    "start": "npx webpack && rm ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GibsDev/wp-theme-gibsdev.git"
+  },
+  "author": "GibsDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GibsDev/wp-theme-gibsdev/issues"
+  },
+  "homepage": "https://github.com/GibsDev/wp-theme-gibsdev#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.1",
+    "css-loader": "^5.2.5",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
