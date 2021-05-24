@@ -1,8 +1,6 @@
+<?php get_header(); ?>
+<h1><?php the_title(); ?></h1>
 <?php
-
-get_header();
-the_title();
 the_content();
 get_footer();
-
 ?>
