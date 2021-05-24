@@ -4,6 +4,8 @@
 <img src="<?php theme_uri("/screenshot.jpg") ?>" alt="Skull"/>
 <p><?php echo wp_get_theme()->Description?></p>
 
+<p>This is probably not the page you are looking for. This is the final fallback page for wordpress templates.</p>
+
 <a href="https://codex.wordpress.org/Function_Reference" target="_blank">Wordpress function reference</a>
 
 <?php get_footer(); ?>
