@@ -19,7 +19,7 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="/articles">Articles</a>
+					<a class="nav-link" href="/posts">Posts</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/links">Links</a>
