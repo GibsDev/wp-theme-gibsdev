@@ -171,22 +171,3 @@ $btn-close-hover-opacity:    1 !default;
 // Code
 
 $pre-color:                         inherit !default;
-
-$modal-xl:                          800px !default; // 1440px
-
-$grid-breakpoints: (
-	xs: 0,
-	sm: 576px,
-	md: 768px,
-	lg: 992px,
-	xl: 992px, // 1200px
-	xxl: 992px // 1400px
-) !default;
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 960px, // 1140px
-  xxl: 960px // 1320px
-) !default;
