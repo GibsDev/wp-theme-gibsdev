@@ -1,5 +1,5 @@
 <!-- END PAGE CONTENT -->
-</div>
+</main>
 <?php wp_footer();?>
 </body>
 </html>
