@@ -8,7 +8,7 @@ $allPostsWPQuery = new WP_Query(array('post_type' => 'post', 'post_status' => 'p
 <?php if ($allPostsWPQuery->have_posts()) : ?>
 	<div>
 		<?php while ($allPostsWPQuery->have_posts()) : $allPostsWPQuery->the_post(); ?>
-			<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><pre><?php the_date(); ?></pre></a>
+			<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><pre><?php echo get_the_date(); ?></pre></a>
 		<?php endwhile; ?>
 	</div>
 	<?php wp_reset_postdata(); ?>
