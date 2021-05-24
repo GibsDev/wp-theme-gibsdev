@@ -3,7 +3,6 @@
 <h1>Posts</h1>
 <hr>
 <?php
-$posts = get_posts();
 // wp-query to get all published posts without pagination
 $allPostsWPQuery = new WP_Query(array('post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => -1)); ?>
 <?php if ($allPostsWPQuery->have_posts()) : ?>
