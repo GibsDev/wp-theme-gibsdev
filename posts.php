@@ -3,12 +3,11 @@
 <h1>Posts</h1>
 <hr>
 <?php
+$posts = get_posts();
 // wp-query to get all published posts without pagination
 $allPostsWPQuery = new WP_Query(array('post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => -1)); ?>
 <?php if ($allPostsWPQuery->have_posts()) : ?>
-
-	<div class='d-flex'>
-
+	<div>
 		<?php while ($allPostsWPQuery->have_posts()) : $allPostsWPQuery->the_post(); ?>
 			<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><pre><?php the_date(); ?></pre></a>
 		<?php endwhile; ?>
