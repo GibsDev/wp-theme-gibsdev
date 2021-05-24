@@ -1,7 +1,7 @@
 <?php /* Template Name: Posts */ ?>
 <?php get_header(); ?>
 <h1>Posts</h1>
-
+<hr>
 <?php
 // wp-query to get all published posts without pagination
 $allPostsWPQuery = new WP_Query(array('post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => -1)); ?>
